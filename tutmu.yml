@@ -1,0 +1,6 @@
+testlink:
+  image: quay.io/repository/alaskaicygiant/testlink
+  environment:
+    - MYSQL_PASS=fishing
+  volumes:
+    - /srv/docker/testlink/mysql:/var/lib/mysql
